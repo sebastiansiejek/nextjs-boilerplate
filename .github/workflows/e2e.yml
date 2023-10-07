@@ -16,12 +16,12 @@ jobs:
         uses: actions/setup-node@v3
         with:
           node-version: '18.18.0'
-          cache: 'yarn'
+          cache: 'npm'
 
       - name: Cypress run
         uses: cypress-io/github-action@v4
         with:
-          build: yarn build
-          start: yarn start
+          build: npm run build
+          start: npm run start
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
