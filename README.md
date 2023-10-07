@@ -1,3 +1,40 @@
+# Features
+
+## Actions
+
+* [e2e](.github/workflows/e2e.yml)
+    * run e2e test by Cypress
+* [test](.github/workflows/e2e.yml)
+    * run unit tests by Jest
+
+## Git hooks
+
+* [pre-commit](.husky/pre-commit)
+
+## Lint
+
+* [eslint](https://eslint.org/)
+    * [config](tsconfig.json)
+* [prettier](https://prettier.io/)
+    * [config](.prettierrc)
+* [commitlint](https://commitlint.js.org/#/)
+    * [config](commitlint.config.js)
+
+## Styles
+
+* [Tailwind](https://tailwindcss.com/)
+    * [config](tailwind.config.js)
+
+## Structure
+
+* **src**
+    * **app** - routing
+    * **components**
+        * **containers** - smart components
+        * **views** - dump(ui) components
+    * **services** - ex. api
+    * **styles** - css
+
 # Commands
 
 * `npm run dev` - run develop server
