@@ -27,13 +27,13 @@
 
 ## Structure
 
-* **src**
-    * **app** - routing
-    * **components**
-        * **containers** - smart components
-        * **views** - dump(ui) components
-    * **services** - ex. api
-    * **styles** - css
+* **/app**
+    * **/components**
+        * **/containers** - smart components
+        * **/views** - dump(ui) components
+    * **/services**
+        * **/api**
+    * **/styles** - css
 
 # Commands
 
@@ -45,3 +45,4 @@
 * `npm run test` - run unit tests
 * `npm run cypress` - run cypress ui
 * `npm run cypress:headless` - run cypress
+* `npm run analyze` - run bundle analyze
