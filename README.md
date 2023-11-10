@@ -33,9 +33,12 @@ Based on [nextjs-boilerplate](https://github.com/sebastiansiejek/nextjs-boilerpl
     * **/components**
         * **/containers** - smart components
         * **/views** - dump(ui) components
+    * **/lib**
+        * **/errors** - custom errors handler
+        * **/http** - api fetcher
     * **/services**
         * **/api**
-    * **/styles** - css
+    * **/styles** - styles
 
 # Commands
 
