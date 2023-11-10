@@ -1,3 +1,5 @@
+Based on [nextjs-boilerplate](https://github.com/sebastiansiejek/nextjs-boilerplate)
+
 # Features
 
 ## Actions
@@ -46,3 +48,7 @@
 * `npm run cypress` - run cypress ui
 * `npm run cypress:headless` - run cypress
 * `npm run analyze` - run bundle analyze
+
+# Credits
+
+* [Sebastian Siejek](https://sebastiansiejek.dev/)
